@@ -7,6 +7,11 @@ export default class AddTodoMutation extends Relay.Mutation {
       todos {
         count
       }
+    }`,
+    couples: () => Relay.QL`fragment on Couples {
+      id
+      nameA
+      nameB
     }`
   };
 
@@ -25,6 +30,7 @@ export default class AddTodoMutation extends Relay.Mutation {
     return Relay.QL`
       fragment on addTodoPayload {
         changedTodoEdge
+        
         viewer {
           todos {
             count

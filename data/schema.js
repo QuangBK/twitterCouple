@@ -1,4 +1,6 @@
 import mongoose from 'mongoose';
+import User from './User';
+import Couple from './Couple';
 
 const TodoSchema = new mongoose.Schema({
   text: {
@@ -11,4 +13,4 @@ const TodoSchema = new mongoose.Schema({
 
 const Todo = mongoose.model('Todo', TodoSchema);
 
-export default [Todo];
+export default [Todo, User, Couple];
