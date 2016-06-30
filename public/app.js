@@ -19780,14 +19780,14 @@
 	        route: new _AppRoute2.default(),
 	        renderLoading: function renderLoading() {
 	          return _react2.default.createElement(
-	            'div',
+	            'h2',
 	            null,
 	            'Loading...'
 	          );
 	        },
 	        onReadyStateChange: function onReadyStateChange(state) {
-	          console.log("App changed");
-	          console.log(state);
+	          //console.log("App changed");
+	          //console.log(state);
 	          /*          var isRefreshing = readyState.ready;
 	                    var text = isRefreshing ? "OK" : "Waitting...";
 	                    return (

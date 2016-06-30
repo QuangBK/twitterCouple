@@ -51,11 +51,11 @@ export default class App extends React.Component {
         Component={CoupleApp}
         route={new AppRoute}
         renderLoading={function() {
-          return <div>Loading...</div>;
+          return <h2>Loading...</h2>;
         }}
         onReadyStateChange={function(state){
-          console.log("App changed");
-          console.log(state);
+          //console.log("App changed");
+          //console.log(state);
 /*          var isRefreshing = readyState.ready;
           var text = isRefreshing ? "OK" : "Waitting...";
           return (
