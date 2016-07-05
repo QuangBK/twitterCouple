@@ -56,6 +56,11 @@ class CoupleApp extends React.Component {
           />
           </div>
           <div className="row">
+          <p>
+            Note: Month<br></br>
+            Quang: 7, 5, 4,...<br></br>
+            Thai: 6, 4, 2,...
+          </p>
           <h3>Last 10 record</h3>
           <p><strong>Total: {amount}</strong></p>
           <CoupleList couples={couples}

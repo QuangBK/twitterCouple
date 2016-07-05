@@ -43211,6 +43211,15 @@
 	            'div',
 	            { className: 'row' },
 	            _react2.default.createElement(
+	              'p',
+	              null,
+	              'Note: Month',
+	              _react2.default.createElement('br', null),
+	              'Quang: 7, 5, 4,...',
+	              _react2.default.createElement('br', null),
+	              'Thai: 6, 4, 2,...'
+	            ),
+	            _react2.default.createElement(
 	              'h3',
 	              null,
 	              'Last 10 record'
@@ -43861,7 +43870,7 @@
 	            'div',
 	            { className: 'form-group' },
 	            _react2.default.createElement('input', { className: this.props.className || '',
-	              placeholder: 'Tweet',
+	              placeholder: 'Search query, e.g: \'i love you my honey lang:en since:2016-06-26 until:2016-07-02\'',
 	              value: this.state.text.tweet,
 	              onChange: this.handleChangeTweet
 	            })

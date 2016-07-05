@@ -10,7 +10,7 @@ import Couple from './data/Couple';
 const app = express();
 
 const PORT = process.env.PORT || 8080;
-process.env.MONGOLAB_URI = 'mongodb://quang:123@ds011495.mlab.com:11495/twittercouple'
+process.env.MONGOLAB_URI = 'mongodb://abc:123qwe@ds015690.mlab.com:15690/twittercouple'
 const MONGO_URI = process.env.MONGO_URI || process.env.MONGOLAB_URI || 'mongodb://localhost/graphql1';
 
 mongoose.connect(MONGO_URI);

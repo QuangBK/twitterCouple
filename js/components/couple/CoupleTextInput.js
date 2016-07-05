@@ -117,7 +117,7 @@ export default class TodoTextInput extends React.Component {
         </div>
         <div className="form-group">
         <input className={this.props.className || ''}
-               placeholder="Tweet"
+               placeholder="Search query, e.g: 'i love you my honey lang:en since:2016-06-26 until:2016-07-02'"
                value={this.state.text.tweet}
                onChange={this.handleChangeTweet}
                />
