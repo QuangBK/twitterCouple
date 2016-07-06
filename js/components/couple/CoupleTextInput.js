@@ -73,6 +73,7 @@ export default class TodoTextInput extends React.Component {
     this.props.onSave(text);
     var newText = {};
     newText.createdBy = text.createdBy;
+    newText.tweet = text.tweet;
     this.setState({ text: newText });
   }
   submitForm = (e) => {

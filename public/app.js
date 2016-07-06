@@ -43786,6 +43786,7 @@
 	      _this.props.onSave(text);
 	      var newText = {};
 	      newText.createdBy = text.createdBy;
+	      newText.tweet = text.tweet;
 	      _this.setState({ text: newText });
 	    }, _this.submitForm = function (e) {
 	      e.preventDefault();
