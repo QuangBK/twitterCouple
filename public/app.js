@@ -43785,6 +43785,8 @@
 	      var text = _this.state.text;
 	      _this.props.onSave(text);
 	      var newText = {};
+	      newText.nameA = '@';
+	      newText.nameB = '@';
 	      newText.createdBy = text.createdBy;
 	      newText.tweet = text.tweet;
 	      _this.setState({ text: newText });
